@@ -1,6 +1,6 @@
 import store from './store.js';
 
-<counter>
+<rr-counter>
 	<h2>Counter</h2>
 	<p>Count: {state.count}</p>
 	<button onclick={increase}>Increase value</button>
@@ -24,4 +24,4 @@ import store from './store.js';
 		store.dispatch({ type: 'init' });
 
 	</script>
-</counter>
+</rr-counter>

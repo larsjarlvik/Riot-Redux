@@ -1,6 +1,6 @@
 import store from './store.js';
 
-<calculator>
+<rr-calculator>
 	<h2>Calculator</h2>
 	<p>Sum: {state.sum}</p>
 	<input onkeyup={sum} type="string" name="num1">
@@ -33,4 +33,4 @@ import store from './store.js';
 		store.dispatch({ type: 'init' });
 
 	</script>
-</calculator>
+</rr-calculator>
